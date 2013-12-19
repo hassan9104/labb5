@@ -1,0 +1,7 @@
+#!/bin/bash
+while=$HOME/while.dat
+  while [ ! -e $File ]; do
+  :
+  done
+  echo "filen finns"
+  exit 0

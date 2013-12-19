@@ -1,0 +1,15 @@
+#!bin/bash
+read -p "skriv 10 to 100 tack" Number
+if [ $Number -gt 100 ];then 
+    echo "skriv in rätt tal tack!"
+
+elif [ $Number -lt 10 ];then
+    echo "bra, välkommen åter"
+else
+    echo "du skrev: $Number"
+fi
+until [ "$Number" -eq 0 ]; do
+    echo "$Number"
+    Number=$[ Number -1 ]
+done
+exit 0

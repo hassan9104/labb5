@@ -1,0 +1,7 @@
+#!/bin/bash
+read -p "mata in ett tal" nummer 
+until [ $Num -ge 101 ] ; do
+    echo "Nummer: $Num"
+    Num=$[ Num + 1 ]
+done
+exit 0

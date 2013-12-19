@@ -1,0 +1,9 @@
+while read -S ”Mata in ett namn (exit avslutar): ” NAMN ; do
+   if [ ”$NAMN” = ”exit” ]; then
+break
+else
+ echo ”Du matade in $NAMN”
+fi
+done
+exit 0
+

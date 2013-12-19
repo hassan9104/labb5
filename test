@@ -1,0 +1,5 @@
+#!/bin/bash
+while read -p "mata in ditt namn:" Namn ; do
+    echo "du matade in ett $Namn"
+    done
+exit 0
